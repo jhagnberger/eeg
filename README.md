@@ -28,7 +28,8 @@ conda create -n eeg --file requirements.txt
 ```
 
 ## Pipeline Execution
-This is currently work in progress. We have two implementations for a pipeline (see Milestone 3) which we have to combine into one single pipeline in the future. Also, we have to make it more user-friendly. However, the core functionality is already implemented, which can be found in the Jupyter Notebooks `erp_analysis.ipynb` in the root directory.
+The entire pipeline is implemented in the Jupyter Notebook `erp_analysis.ipynb` in the root directory of this repository.
+The notebook includes all helper functions and the entire pipeline. You only have to adapt the data path to your local data directory and run the notebook to execute the pipeline.
 
 
 ## Milestones
