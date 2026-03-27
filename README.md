@@ -1,13 +1,13 @@
 <p align="center"><img src="images/nn_white_bg.svg" alt="CALM-PDE Logo" width="25%" /></p>
 
-<h1 align="center">EEG Project WS25/26: Using Prediction Error Negativity to Evaluate the Immersive Experience of VR Environments</h1> 
+<h1 align="center">EEG Project WS25/26: Using Prediction Error Negativity to Assess the Immersive Experience of VR Environments</h1> 
 <p align="center" style="font-size:16px">
     <strong>Jan Hagnberger</strong> and
     <strong>Jianyang Gu</strong></a>
 </p>
 
 ## Project Overview
-This repository contains the code and documentation for the EEG Project in WS25/26 at the University of Stuttgart about "Using Prediction Error Negativity to Evaluate the Immersive Experience of VR Environments". The project involves preprocessing and analyzing EEG data collected during a motion study to investigate prediction error signals in the brain to evaluate the immersive experience of VR environments. The dataset used is publicly available on [OpenNeuro (Dataset ds003846)](https://openneuro.org/datasets/ds003846/versions/1.0.1) and was released and analyzed in the paper [Detecting Visuo-Haptic Mismatches in Virtual Reality using the Prediction Error Negativity of Event-Related Brain Potentials](https://dl.acm.org/doi/10.1145/3290605.3300657) by Gehrke et al., 2019.
+This repository contains the code and documentation for the EEG Project in WS25/26 at the University of Stuttgart about "Using Prediction Error Negativity to Assess the Immersive Experience of VR Environments". The project involves preprocessing and analyzing EEG data collected during a motion study to investigate prediction error signals in the brain to evaluate the immersive experience of VR environments. The dataset used is publicly available on [OpenNeuro (Dataset ds003846)](https://openneuro.org/datasets/ds003846/versions/1.0.1) and was released and analyzed in the paper [Detecting Visuo-Haptic Mismatches in Virtual Reality using the Prediction Error Negativity of Event-Related Brain Potentials](https://dl.acm.org/doi/10.1145/3290605.3300657) by Gehrke et al., 2019.
 
 
 ## Data Description
@@ -28,8 +28,17 @@ conda create -n eeg --file requirements.txt
 ```
 
 ## Pipeline Execution
-The entire pipeline is implemented in the Jupyter Notebook `erp_analysis.ipynb` in the root directory of this repository.
+
+### 1. Reproducing Original Results
+The entire pipeline to reproduce the authors' results is implemented in the Jupyter Notebook `erp_analysis.ipynb` in the root directory of this repository.
 The notebook includes all helper functions and the entire pipeline. You only have to adapt the data path to your local data directory and run the notebook to execute the pipeline.
+
+
+### 2. Extension with Reaction Time Analysis
+The Jupyter Notebook `time_analysis.ipynb` contains the code for our extension of the original study, where we incorporate reaction times into the analysis. The notebook includes all helper functions and the entire pipeline for the reaction time analysis. You only have to adapt the data path to your local data directory and run the notebook to execute the reaction time analysis pipeline.
+
+### 3. Extension with Decoding Analysis
+The Jupyter Notebook `decoding_analysis.ipynb` contains the code for our extension of the original pipeline, where we perform a decoding task. The notebook includes all helper functions and the entire pipeline for the decoding. You only have to adapt the data path to your local data directory and run the  notebook to execute the decoding task.
 
 
 ## Milestones
