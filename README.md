@@ -30,15 +30,14 @@ conda create -n eeg --file requirements.txt
 ## Pipeline Execution
 
 ### 1. Reproducing Original Results
-The entire pipeline to reproduce the authors' results is implemented in the Jupyter Notebook `erp_analysis.ipynb` in the root directory of this repository.
-The notebook includes all helper functions and the entire pipeline. You only have to adapt the data path to your local data directory and run the notebook to execute the pipeline.
+The entire pipeline to reproduce the authors' results is implemented in the Jupyter Notebook [`erp_analysis.ipynb`](erp_analysis.ipynb) in the root directory of this repository. The notebook includes all helper functions and the entire pipeline. You only have to adapt the data path to your local data directory and run the notebook to execute the pipeline.
 
 
 ### 2. Extension with Reaction Time Analysis
-The Jupyter Notebook `reactiontime_analysis.ipynb` contains the code for our extension of the original study, where we incorporate reaction times into the analysis. The notebook includes all helper functions and the entire pipeline for the reaction time analysis. You only have to adapt the data path to your local data directory and run the notebook to execute the reaction time analysis pipeline.
+The Jupyter Notebook [`reactiontime_analysis.ipynb`](reactiontime_analysis.ipynb) contains the code for our extension of the original study, where we incorporate reaction times into the analysis. The notebook includes all helper functions and the entire pipeline for the reaction time analysis. You only have to adapt the data path to your local data directory and run the notebook to execute the reaction time analysis pipeline.
 
 ### 3. Extension with Decoding Analysis
-The Jupyter Notebook `trial_decoding_analysis.ipynb` contains the code for our extension of the original pipeline, where we perform a decoding task. The notebook includes all helper functions and the entire pipeline for the decoding. You only have to adapt the data path to your local data directory and run the  notebook to execute the decoding task.
+The Jupyter Notebook [`trial_decoding_analysis.ipynb`](trial_decoding_analysis.ipynb) contains the code for our extension of the original pipeline, where we perform a decoding task. The notebook includes all helper functions and the entire pipeline for the decoding. You only have to adapt the data path to your local data directory and run the  notebook to execute the decoding task.
 
 
 ## Milestones
