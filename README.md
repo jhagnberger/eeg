@@ -35,7 +35,7 @@ The notebook includes all helper functions and the entire pipeline. You only hav
 
 
 ### 2. Extension with Reaction Time Analysis
-The Jupyter Notebook `time_analysis.ipynb` contains the code for our extension of the original study, where we incorporate reaction times into the analysis. The notebook includes all helper functions and the entire pipeline for the reaction time analysis. You only have to adapt the data path to your local data directory and run the notebook to execute the reaction time analysis pipeline.
+The Jupyter Notebook `reactiontime_analysis.ipynb` contains the code for our extension of the original study, where we incorporate reaction times into the analysis. The notebook includes all helper functions and the entire pipeline for the reaction time analysis. You only have to adapt the data path to your local data directory and run the notebook to execute the reaction time analysis pipeline.
 
 ### 3. Extension with Decoding Analysis
 The Jupyter Notebook `decoding_analysis.ipynb` contains the code for our extension of the original pipeline, where we perform a decoding task. The notebook includes all helper functions and the entire pipeline for the decoding. You only have to adapt the data path to your local data directory and run the  notebook to execute the decoding task.
