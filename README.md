@@ -1,4 +1,4 @@
-<p align="center"><img src="images/nn_white_bg.svg" alt="CALM-PDE Logo" width="25%" /></p>
+<p align="center"><img src="images/nn_white_bg.svg" alt="NeuroNauts Logo" width="25%" /></p>
 
 <h1 align="center">EEG Project WS25/26: Using Prediction Error Negativity to Assess the Immersive Experience of VR Environments</h1> 
 <p align="center" style="font-size:16px">
